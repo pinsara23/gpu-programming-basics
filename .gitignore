@@ -1,0 +1,37 @@
+# CUDA and C/C++ build artifacts
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+*.ptx
+*.cubin
+*.fatbin
+
+# Common local build directories
+build/
+bin/
+obj/
+
+# CUDA profiling and debugger output
+*.nvvp
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
